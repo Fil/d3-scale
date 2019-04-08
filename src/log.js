@@ -139,7 +139,5 @@ export default function log() {
     return copy(scale, log()).base(scale.base());
   };
 
-  initRange.apply(scale, arguments);
-
-  return scale;
+  return initRange.apply(scale, arguments);
 }

@@ -40,9 +40,7 @@ export default function pow() {
     return copy(scale, pow()).exponent(scale.exponent());
   };
 
-  initRange.apply(scale, arguments);
-
-  return scale;
+  return initRange.apply(scale, arguments);
 }
 
 export function sqrt() {

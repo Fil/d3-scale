@@ -40,7 +40,5 @@ export default function ordinal() {
     return ordinal(domain, range).unknown(unknown);
   };
 
-  initRange.apply(scale, arguments);
-
-  return scale;
+  return initRange.apply(scale, arguments);
 }
